@@ -295,6 +295,46 @@ h3{
   margin: 10px 0 0 0;
 }
 
+/*CASES*/
+#cases{
+  margin: 40px 0 40px 0;
+  width: 100%;
+}
+
+#cases > ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+#cases > ul > li {
+  width: 33%;
+  margin: 20px;
+}
+
+.case-card{
+  background-color: #ffffff;
+  min-height: 400px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.case-img{
+  width: 100%;
+}
+
+.case-info{
+  padding: 10px 20px 10px 20px;
+}
+
+.case-name{
+  color: #2710d5;
+  font-size: 19px;
+}
+
+.case-content{
+  font-size: 14px;
+}
+
 /*COMPANY*/
 #company {
   margin: 80px auto 80px auto;

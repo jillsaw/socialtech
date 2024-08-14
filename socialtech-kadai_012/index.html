@@ -19,6 +19,27 @@
         <a href="index.html#company">COMPANY</a>
         <a href="index.html#contact">CONTACT</a>
       </nav>
+      <!--スマホ用メニューボタン-->
+      <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block';">
+      <nav id="nav-sp">
+        <img id="close" src="images/button-close.png" alt="ナビゲーションを閉じる"onclick="document.getElementById('nav-sp').style.display='none';">
+        <a id="logo-sp" href="index.html" onclick="document.getElementById('nav-sp').style.display='none';"><img src="images/logo-sp.png" alt="トップページに戻る"></a>
+        <a class="menu" href="mission.html" onclick="document.getElementById('nav-sp').style.display='none';">MISSION</a>
+        <a class="menu" href="product.html" onclick="document.getElementById('nav-sp').style.display='none';">PRODUCT</a>
+        <a class="menu" href="index.html#aboutus" onclick="document.getElementById('nav-sp').style.display='none';">ABOUT US</a>
+        <a class="menu" href="index.html#vission" onclick="document.getElementById('nav-sp').style.display='none';">VISION</a>
+        <a class="menu" href="index.html#company" onclick="document.getElementById('nav-sp').style.display='none';">COMPANY</a>
+        <a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display='none';">CONTACT</a>
+        <div id="sns">
+          <a href="https://www.facebook.com/sejuku2013"><img src="images/button-facebook.png" alt="Facebookのリンク"></a>
+          <a href="https://twitter.com/samuraijuku"><img src="images/button-twitter.png" alt="Twitterのリンク"></a>
+          <a href="https://www.youtube.com/channel/UCCFOQO5aDK0xXam4cUQXT8g"><img src="images/button-youtube.png" alt="YouTubeのリンク"></a>
+        </div>
+      </nav> 
+    </header>
+  
+  <!--======== 後略 ========-->
+  
     </header>
     <main>
       <article>
@@ -335,7 +356,7 @@
                   <label class="contact-label">ご希望の連絡先<span class="contact-span">必須</span></label>
                </div>
                <div>
-                 <input class="radiobutton" type="radio" value="tal" name="contact" checked><label>お電話</label>
+                 <input class="radiobutton" type="radio" value="tel" name="contact" checked><label>お電話</label>
                  <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
                  <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
                </div>
